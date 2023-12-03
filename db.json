@@ -5,6 +5,12 @@
       "password": "$2a$10$LpRdwVpDWMWK3bL6cg8TOeRRbKPbMMP/xu5TgKQyua6xUgpYPaZTK",
       "name": "Felipe",
       "id": 1
+    },
+    {
+      "email": "felipe.sobrinho@pucmg.com",
+      "password": "$2a$10$D484n7RPos1Y1wHs.4QYnuh8gdWk9A/0ju6yFz44iIiaVVuJvZEyu",
+      "name": "Felipe",
+      "id": 2
     }
   ],
   "itens": [
@@ -58,7 +64,19 @@
       "price": 16.99,
       "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
       "deliverytime": "40",
-      "quantity": 2
+      "quantity": 3
+    }
+  ],
+  "favorites": [
+    {
+      "id": "1",
+      "name": "Hamburguer",
+      "category": "Hamburguer",
+      "description": "Pão, carne, salada",
+      "price": 16.99,
+      "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+      "deliverytime": "40",
+      "quantity": 1
     }
   ]
 }
