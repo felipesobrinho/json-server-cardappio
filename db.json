@@ -1,9 +1,64 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "email": "felipe.sobrinho@puc.com",
+      "password": "$2a$10$LpRdwVpDWMWK3bL6cg8TOeRRbKPbMMP/xu5TgKQyua6xUgpYPaZTK",
+      "name": "Felipe",
+      "id": 1
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "itens": [
+    {
+      "id": "1",
+      "name": "Hamburguer",
+      "category": "Hamburguer",
+      "description": "Pão, carne, salada",
+      "price": 16.99,
+      "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+      "deliverytime": "40",
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "name": "X-tudo",
+      "description": "Pão, carne, salada",
+      "price": 20.99,
+      "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+      "deliveryTime": "40",
+      "quantity": 1,
+      "category": "Hamburguer"
+    },
+    {
+      "id": "3",
+      "name": "X-egg",
+      "description": "Pão, carne, salada",
+      "price": 18.99,
+      "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+      "deliveryTime": "40",
+      "quantity": 1,
+      "category": "Hamburguer"
+    },
+    {
+      "id": "4",
+      "name": "Pizza",
+      "description": "Pizza metada à moda, metade calabresa",
+      "price": 38.99,
+      "imageurl": "https://i.imgur.com/1VBg6vw.jpg",
+      "deliveryTime": "60",
+      "quantity": 1,
+      "category": "Pizza"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "carrinho": [
+    {
+      "id": "1",
+      "name": "Hamburguer",
+      "category": "Hamburguer",
+      "description": "Pão, carne, salada",
+      "price": 16.99,
+      "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+      "deliverytime": "40",
+      "quantity": 2
+    }
+  ]
 }
