@@ -64,7 +64,16 @@
       "price": 16.99,
       "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
       "deliverytime": "40",
-      "quantity": 3
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "name": "X-egg",
+      "category": "Hamburguer",
+      "description": "Pão, carne, salada",
+      "price": 18.99,
+      "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+      "quantity": 1
     }
   ],
   "favorites": [
@@ -77,6 +86,156 @@
       "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
       "deliverytime": "40",
       "quantity": 1
+    }
+  ],
+  "pedido": [
+    {
+      "numeroPedido": 900,
+      "produtos": [
+        {
+          "id": "1",
+          "name": "Hamburguer",
+          "category": "Hamburguer",
+          "description": "Pão, carne, salada",
+          "price": 16.99,
+          "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+          "deliverytime": "40",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "X-egg",
+          "category": "Hamburguer",
+          "description": "Pão, carne, salada",
+          "price": 18.99,
+          "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "Pizza",
+          "category": "Pizza",
+          "description": "Pizza metada à moda, metade calabresa",
+          "price": 38.99,
+          "imageurl": "https://i.imgur.com/1VBg6vw.jpg",
+          "quantity": 1
+        }
+      ],
+      "statusPedido": "Em processamento",
+      "total": 74.97,
+      "id": 3
+    },
+    {
+      "numeroPedido": 847,
+      "produtos": [
+        {
+          "id": "1",
+          "name": "Hamburguer",
+          "category": "Hamburguer",
+          "description": "Pão, carne, salada",
+          "price": 16.99,
+          "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+          "deliverytime": "40",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "X-egg",
+          "category": "Hamburguer",
+          "description": "Pão, carne, salada",
+          "price": 18.99,
+          "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "Pizza",
+          "category": "Pizza",
+          "description": "Pizza metada à moda, metade calabresa",
+          "price": 38.99,
+          "imageurl": "https://i.imgur.com/1VBg6vw.jpg",
+          "quantity": 2
+        }
+      ],
+      "statusPedido": "Em processamento",
+      "total": 113.96000000000001,
+      "id": 4
+    },
+    {
+      "numeroPedido": 874,
+      "produtos": [
+        {
+          "id": "1",
+          "name": "Hamburguer",
+          "category": "Hamburguer",
+          "description": "Pão, carne, salada",
+          "price": 16.99,
+          "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+          "deliverytime": "40",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "X-egg",
+          "category": "Hamburguer",
+          "description": "Pão, carne, salada",
+          "price": 18.99,
+          "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "Pizza",
+          "category": "Pizza",
+          "description": "Pizza metada à moda, metade calabresa",
+          "price": 38.99,
+          "imageurl": "https://i.imgur.com/1VBg6vw.jpg",
+          "quantity": 2
+        }
+      ],
+      "statusPedido": "Em processamento",
+      "total": 113.96000000000001,
+      "name": "Felipe",
+      "table": "05",
+      "id": 5
+    },
+    {
+      "numeroPedido": 833,
+      "produtos": [
+        {
+          "id": "1",
+          "name": "Hamburguer",
+          "category": "Hamburguer",
+          "description": "Pão, carne, salada",
+          "price": 16.99,
+          "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+          "deliverytime": "40",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "name": "X-egg",
+          "category": "Hamburguer",
+          "description": "Pão, carne, salada",
+          "price": 18.99,
+          "imageurl": "https://i.imgur.com/t7Y4lRJ.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "4",
+          "name": "Pizza",
+          "category": "Pizza",
+          "description": "Pizza metada à moda, metade calabresa",
+          "price": 38.99,
+          "imageurl": "https://i.imgur.com/1VBg6vw.jpg",
+          "quantity": 2
+        }
+      ],
+      "statusPedido": "Em processamento",
+      "total": 113.96000000000001,
+      "name": "Felipe",
+      "table": "05",
+      "id": 6
     }
   ]
 }
